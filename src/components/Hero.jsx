@@ -18,7 +18,7 @@ const Hero = () => {
             <li className="flex items-start gap-3"><CheckCircle className="h-5 w-5 text-emerald-600 mt-0.5"/>Family-friendly, accessible clinic</li>
           </ul>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="#book" className="inline-flex items-center justify-center gap-2 bg-sky-600 text-white px-5 py-3 rounded-xl hover:bg-sky-700 transition">Book an Appointment</a>
+            <a href="#/book" className="inline-flex items-center justify-center gap-2 bg-sky-600 text-white px-5 py-3 rounded-xl hover:bg-sky-700 transition">Book an Appointment</a>
             <a href="#contact" className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border text-slate-700 hover:bg-slate-50 transition"><Phone className="h-4 w-4"/>Call us</a>
             <a href="#contact" className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border text-slate-700 hover:bg-slate-50 transition"><Mail className="h-4 w-4"/>Email</a>
           </div>

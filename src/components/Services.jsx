@@ -43,6 +43,9 @@ const Services = () => {
             </div>
           ))}
         </div>
+        <div className="mt-10">
+          <a href="#/book" className="inline-flex items-center gap-2 bg-sky-600 text-white px-5 py-3 rounded-xl hover:bg-sky-700 transition">Book now</a>
+        </div>
       </div>
     </section>
   );
